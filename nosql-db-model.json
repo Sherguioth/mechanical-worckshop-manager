@@ -1,0 +1,26 @@
+{
+    "cars": {
+        "plate": "string",
+        "brand": "string",
+        "model": "string",
+        "enter_date": "date",
+        "image": "string",
+        "customer": {
+            "name": "string"
+        },
+        "notes": [
+            {
+                "id": "string",
+                "type": "string",
+                "desc": "string",
+                "date_note": "date"
+            },
+            {
+                "id": "string",
+                "type": "string",
+                "desc": "string",
+                "date_note": "date"
+            }
+        ]
+    }
+}
