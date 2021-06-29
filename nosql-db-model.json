@@ -5,22 +5,29 @@
         "model": "string",
         "enter_date": "date",
         "image": "string",
-        "customer": {
-            "name": "string"
-        },
         "notes": [
             {
-                "id": "string",
-                "type": "string",
+                "_id": "string",
+                "title": "string",
                 "desc": "string",
-                "date_note": "date"
-            },
-            {
-                "id": "string",
-                "type": "string",
-                "desc": "string",
-                "date_note": "date"
+                "date_note": "date",
+                "made_by": "string",
+                "spare_parts": ["", ""]
             }
-        ]
+        ],
+        "customer": {
+            "_id": "string",
+            "name": "string",
+            "phone": "string"
+        }
+    },
+
+    "car_mechanical": {
+        "username": "string",
+        "password": "string",
+        "name": "string",
+        "photo": "string",
+        "specialty": "string",
+        "salt": "string"
     }
 }
