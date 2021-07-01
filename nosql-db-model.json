@@ -45,11 +45,18 @@
 
     "invoices": {
         "_id": "string",
-        "date": "date",
         "customer": "string",
         "dni": "string",
         "phone": "string",
-        "work_cost": "number",
+        "date": "date",
+        "car_plate": "string",
+        "intems": [
+            {
+                "concept": "string",
+                "cost": "string"
+            }
+        ],
+        "discount": "number",
         "subtotal": "number",
         "total": "number"
     }
