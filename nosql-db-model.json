@@ -1,25 +1,22 @@
 {
     "cars": {
-        "_id": "string",
         "plate": "string",
         "brand": "string",
         "model": "string",
-        "enter_date": "date",
-        "exit_date": "date",
+        "enter_date": "timestamp",
+        "exit_date": "timestamp",
         "image": "string",
         "state": "string",
         "customer": {
-            "_id": "string",
             "name": "string",
             "phone": "string"
         }
     },
 
     "car_notes": {
-        "_id": "string",
         "title": "string",
         "desc": "string",
-        "date_note": "date",
+        "note_date": "timestamp",
         "made_by": "string",
         "spare_parts": [
             {
@@ -29,12 +26,11 @@
             }
         ],
         "car": {
-            "_id": "string"
+            "uid": "reference"
         }
     },
 
     "car_mechanical": {
-        "_id": "string",
         "username": "string",
         "password": "string",
         "name": "string",
@@ -44,8 +40,8 @@
     },
 
     "invoices": {
-        "_id": "string",
-        "date": "date",
+        "uid": "string",
+        "timestamp": "timestamp",
         "customer": "string",
         "dni": "string",
         "phone": "string",
