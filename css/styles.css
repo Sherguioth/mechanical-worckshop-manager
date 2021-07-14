@@ -13,6 +13,10 @@
 */
 
 .header {
+    margin-bottom: 1em;
+}
+
+.main-nav {
     position: sticky;
     display: flex;
     justify-content: space-around;
@@ -20,31 +24,38 @@
     background-color: #102f3e;
     margin-bottom: 1em;
     padding: 1em 0;
+    height: 3rem;
 }
 
-.header__logo {
+.main-nav__logo {
     max-width: 100%;
-    height: 5em;
+    height: 3em;
 }
 
-.header__main-title {
+.main-nav__main-title {
     color: #f3f3f3;
     font-size: 3em;
     font-family: sans-serif;
-}
-
-.main-nav {
-    display: flex;
-}
-
-.main-nav__list {
-    display: flex;
-    list-style: none;
 }
 
 .main-nav__link {
     text-decoration: none;
     color: #f3f3f3;
     font-size: 1.5em;
-    text-align: center;
+}
+
+.main-nav__user {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav__username {
+    margin-right: 10px;
+}
+
+.main-nav__user-image {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    max-width: 100%;
+    height: 2em;
 }
