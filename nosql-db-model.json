@@ -13,7 +13,7 @@
         }
     },
 
-    "car_notes": {
+    "carNotes": {
         "title": "string",
         "desc": "string",
         "note_date": "timestamp",
@@ -30,7 +30,7 @@
         }
     },
 
-    "car_mechanical": {
+    "carMechanical": {
         "username": "string",
         "password": "string",
         "name": "string",

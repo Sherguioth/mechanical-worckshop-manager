@@ -8,6 +8,10 @@
     <link rel="shortcut icon" href="./assets/car-engine.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <title>Mechanical Workshop Manager</title>
 </head>
 
@@ -26,12 +30,42 @@
             </a>
         </nav>
     </header>
-    <main>
-
+    <main class="main">
+        <div class="imposter imposter--enter-car">
+            <a href="#" class="button button--enter-car">
+                <span class="button__body">
+                    Enter Car
+                </span>
+            </a>
+        </div>
+        <section class="cards">
+            <h2 class="cards__title">Cars</h2>
+            <article class="card">
+                <aside class="card__aside">
+                    <figure class="card__figure">
+                        <img src="#" alt="Car image" class="card__image">
+                    </figure>
+                </aside>
+                <div class="card__body">
+                    <h3 class="card__title">Car plate: </h3>
+                    <p class="card__copy">Car brand</p>
+                    <p class="card__copy">Enter date: </p>
+                    <p class="card__copy">Customer: </p>
+                    <p class="card__copy">Phone number: </p>
+                </div>
+                <footer class="card__footer">
+                    <div class="card__actions">
+                        <button class="button button--card">Notes</button>
+                        <button class="button button--card">Add Note</button>
+                    </div>
+                    <div class="card__actions card__actions--exit-car">
+                        <button class="button button--exit-car">Exit Car</button>
+                    </div>
+                </footer>
+            </article>
+        </section>
     </main>
-    <footer>
 
-    </footer>
     <script src="./js/index.js" type="module"></script>
 </body>
 
