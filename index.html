@@ -22,7 +22,15 @@
                 <img class="main-nav__logo" src="./assets/car-engine.svg" alt="Logo">
             </a>
             <h1 class="main-nav__main-title">Full Motors</h1>
-            <a href="#" class="main-nav__link">
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a href="#login-modal" class="main-nav__link">Login</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__link">Sign in</a>
+                </li>
+            </ul>
+            <a id="user-icon" href="#" class="main-nav__link d-none">
                 <div class="main-nav__user">
                     <h2 class="main-nav__username">username</h2>
                     <img class="main-nav__user-image" src="./assets/user-icon-default.svg" alt="UserImage">
@@ -30,7 +38,30 @@
             </a>
         </nav>
     </header>
-    <main class="main">
+
+    <!-- Login modal -->
+    <aside id="login-modal" class="modal">
+        <div class="modal__content">
+            <div class="login">
+                <h2 class="login__title">Login</h2>
+                <form id="login__form" action="#">
+                    <div class="input-group">
+                        <label class="input-group__label" for="login-email">Email address</label>
+                        <input class="input-group__input" id="login-email" type="email" required placeholder="user@email.com">
+                    </div>
+                    <div class="input-group">
+                        <label class="input-group__label" for="login-password">Password</label>
+                        <input class="input-group__input" id="login-password" type="password" required placeholder="password">
+                    </div>
+                    <button type="submit" class="button button--login"> Login</button>
+                </form>
+            </div>
+        </div>
+        <a href="#" class="modal__btn-close"></a>
+    </aside>
+
+    <!-- Dashboard  -->
+    <main class="main d-none">
         <div class="imposter imposter--enter-car">
             <a href="#" class="button button--enter-car">
                 <span class="button__body">
