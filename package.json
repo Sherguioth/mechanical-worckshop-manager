@@ -1,0 +1,20 @@
+{
+    "name": "mechanical-workshop-manager",
+    "version": "1.0.0",
+    "description": "App to manage the records of cars that enter to be repaired and ther work done on them",
+    "main": "index.js",
+    "dependencies": {
+        "firebase": "^9.1.0"
+    },
+    "devDependencies": {
+        "webpack": "^5.55.1",
+        "webpack-cli": "^4.8.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode development --config webpack.config.js"
+    },
+    "keywords": [],
+    "author": "Sherguioth",
+    "license": "ISC"
+}
